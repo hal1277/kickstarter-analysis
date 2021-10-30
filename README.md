@@ -21,8 +21,22 @@ As with any data set the data first had to be reviewed and cleansed.  The dates 
 |------------|-------------|-------------------------|-----------------------|
 | 1411679804 | 1409087804  | 2014-08-26              | 2014-09-25            |
 
-Statistical analysis via use of a box and whisker plot revealed that there were some extreme outliers in the goal data field.  Closer examination of these outliers revealed that they were all tied to either failed or cancelled campaigns.  Since the analysis focused on the commonalities of successful campaigns these outliers did not affect the analysis.  However, it is important to regognize them should we do any further analysis on the failed campaigns.  
-[Box and Whisker chart](https://github.com/hal1277/kickstarter-analysis/blob/main/Box%20and%20Whisker%20Chart.png)
+Statistical analysis revealed that there were some extreme outliers in the goal data field.  Closer examination of these outliers revealed that they were all tied to either failed or cancelled campaigns.  Since the analysis focused on the commonalities of successful campaigns these outliers did not affect the analysis.  However, it is important to regognize them should we do any further analysis on the failed campaigns.  
+|                               | Successful  | Failed  |
+|-------------------------------|-------------|---------|
+| Mean Goal                     | $5,049      | $10,554 |
+| Median Goal                   | $3,000      | $5,000  |
+| Standard Deviation of Goal    | $7,749      | $21,968 |
+| Upper Quartile of Goal        | $5,000      | $10,000 |
+| Lower Quartile of Goal        | $1,500      | $2,000  |
+| IQR of Goal                   | $3,500      | $8,000  |
+|                               |             |         |
+| Mean Pledged                  | $5,602      | $559    |
+| Median Pledged                | $3,168      | $103    |
+| Standard Deviation of Pledged | $8,335      | $1,331  |
+| Upper Quartile of Pledged     | $5,699      | $501    |
+| Lower Quartile of Pledged     | $1,717      | $9      |
+| IQR of Pledged                | $3,982      | $492    |
 
 ## Results
 

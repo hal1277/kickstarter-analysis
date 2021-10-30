@@ -5,7 +5,7 @@ An Analysis of prior Kickstarter Campaigns
 Louise has had success before with Kickstarter campaigns to fund plays.  She is considering begining another kickstarter campaign to fund a new play to be launched in the US and has asked for help with the analysis.  
 
 ### Purpose
-The purpose of this analysis is to gain insights from the data on prior Kickstarter campaings and use that to provide some recommendations to Louise on how to launch a new successful Kickstarter campaign to fund her next play.
+The purpose of this analysis is to gain insights from the data on prior Kickstarter campaigns and use that to provide some recommendations to Louise on how to launch a new successful Kickstarter campaign to fund her next play.
 
 ## Analysis and Challenges
 
@@ -21,7 +21,7 @@ As with any data set the data first had to be reviewed and cleansed.  The dates 
 |------------|-------------|-------------------------|-----------------------|
 | 1411679804 | 1409087804  | 2014-08-26              | 2014-09-25            |
 
-Statistical analysis via use of a box and whisker plot revealed that there were some extreme outliers in the goal data field.  Closer examination of these outliers revealed that they were all tied to either failed or cancelled campaigns.  Since the analysis focused on the commonalities of successful campaigns these outliers did not affect the analysis.  However, it is important to regognize them shoudl we do any further analysis on the failed campaigns.  
+Statistical analysis via use of a box and whisker plot revealed that there were some extreme outliers in the goal data field.  Closer examination of these outliers revealed that they were all tied to either failed or cancelled campaigns.  Since the analysis focused on the commonalities of successful campaigns these outliers did not affect the analysis.  However, it is important to regognize them should we do any further analysis on the failed campaigns.  
 [Box and Whisker chart](https://github.com/hal1277/kickstarter-analysis/blob/main/Box%20and%20Whisker%20Chart.png)
 
 ## Results
@@ -32,4 +32,4 @@ The analysis indicates that campaigns with goals lower than $5,000 have the high
 
 We do not know how representatve this date set is.  Of the total data on the report just 25% of the data relates to plays which is specifically what Louise would like to start a Kickstarter campaign on.  But, we have no indiction of how this sample relates to the total population of plays funded by Kickstarter campaigns.  As well theater is a matter of personal taste and we cannot easily tell from this data how the different plays vary from each other, such as comedy, drama, etc, and how that might affect generating the interest of backers.
 
-It woudld be useful to analyze outcomes based on launch date and goals together. Currently the data suggests that lauching in May is a predictor of succsess and that campaigns under $5,000 is a predictor as well.  It would be useful to see the goals by launch month to determine if the month alone is a predictor of success or if May just happened to be when the most under $5,000 campaigns were launched.  
+It would be useful to analyze outcomes based on launch date and goals together. Currently the data suggests that lauching in May is a predictor of succsess and that campaigns under $5,000 is a predictor as well.  It would be useful to see the goals by launch month to determine if the month alone is a predictor of success or if May just happened to be when the most under $5,000 campaigns were launched.  
